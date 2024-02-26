@@ -1,0 +1,78 @@
+.Mywislist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Change this to space-between for even spacing */
+}
+.Myheader {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #333;
+  margin-left: 20px;
+}
+.wishlist-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #f7f7f7; /* Add a background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  transition: transform 0.2s; /* Add a transition effect */
+}
+.wishlist-box:hover {
+  transform: scale(1.02); /* Zoom in slightly on hover */
+}
+.MyWishlist-img-box {
+  text-align: center;
+}
+.MyWishlist-img-box .image {
+  max-width: 100%;
+  height: auto;
+}
+.Mywishlist-header {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #000000; /* Change the header text color */
+}
+.Mywishlist-price {
+  margin: 0;
+  font-size: 16px;
+}
+.buttons-row {
+  margin-top: 12px;
+}
+.Mywishlist-remove-button {
+  background-color: #28666e; /* Change the button color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.Mywishlist-remove-button:hover {
+  background-color: #b71c1c; /* Change the button color on hover */
+}
+.Mywishlist-cart-button {
+  color: #28666e;
+  background-color: #ffffff;
+  border: 2px solid #28666e; /* Change the button color on hover */
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-left: 20px;
+  transition: background-color 0.3s;
+}
+.Mywishlist-cart-button:hover {
+  background-color: #1976d2;
+  color: white;
+}
